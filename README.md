@@ -1,0 +1,2 @@
+# FWRClassifyChooseView
+通过左边的tableView选择来改变右边collectionView的内容的视图
