@@ -15,6 +15,7 @@
 		457F59A31BBBD6CE00D6FCE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457F59A11BBBD6CE00D6FCE0 /* LaunchScreen.storyboard */; };
 		457F59AE1BBBD6CE00D6FCE0 /* FWRClassifyChooseViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 457F59AD1BBBD6CE00D6FCE0 /* FWRClassifyChooseViewDemoTests.m */; };
 		457F59B91BBBD6CE00D6FCE0 /* FWRClassifyChooseViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 457F59B81BBBD6CE00D6FCE0 /* FWRClassifyChooseViewDemoUITests.m */; };
+		457F59CD1BBBDBB300D6FCE0 /* ClassifyChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 457F59CC1BBBDBB300D6FCE0 /* ClassifyChooseView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		457F59B41BBBD6CE00D6FCE0 /* FWRClassifyChooseViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FWRClassifyChooseViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		457F59B81BBBD6CE00D6FCE0 /* FWRClassifyChooseViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWRClassifyChooseViewDemoUITests.m; sourceTree = "<group>"; };
 		457F59BA1BBBD6CE00D6FCE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		457F59CB1BBBDBB300D6FCE0 /* ClassifyChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyChooseView.h; sourceTree = "<group>"; };
+		457F59CC1BBBDBB300D6FCE0 /* ClassifyChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyChooseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		457F59921BBBD6CE00D6FCE0 /* FWRClassifyChooseViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				457F59CA1BBBDBB300D6FCE0 /* FWRClassifyChooseView */,
 				457F59961BBBD6CE00D6FCE0 /* AppDelegate.h */,
 				457F59971BBBD6CE00D6FCE0 /* AppDelegate.m */,
 				457F59991BBBD6CE00D6FCE0 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				457F59BA1BBBD6CE00D6FCE0 /* Info.plist */,
 			);
 			path = FWRClassifyChooseViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		457F59CA1BBBDBB300D6FCE0 /* FWRClassifyChooseView */ = {
+			isa = PBXGroup;
+			children = (
+				457F59CB1BBBDBB300D6FCE0 /* ClassifyChooseView.h */,
+				457F59CC1BBBDBB300D6FCE0 /* ClassifyChooseView.m */,
+			);
+			path = FWRClassifyChooseView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				457F599B1BBBD6CE00D6FCE0 /* ViewController.m in Sources */,
+				457F59CD1BBBDBB300D6FCE0 /* ClassifyChooseView.m in Sources */,
 				457F59981BBBD6CE00D6FCE0 /* AppDelegate.m in Sources */,
 				457F59951BBBD6CE00D6FCE0 /* main.m in Sources */,
 			);
@@ -498,6 +512,7 @@
 				457F59BF1BBBD6CE00D6FCE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		457F59C01BBBD6CE00D6FCE0 /* Build configuration list for PBXNativeTarget "FWRClassifyChooseViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +521,7 @@
 				457F59C21BBBD6CE00D6FCE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		457F59C31BBBD6CE00D6FCE0 /* Build configuration list for PBXNativeTarget "FWRClassifyChooseViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +530,7 @@
 				457F59C51BBBD6CE00D6FCE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
