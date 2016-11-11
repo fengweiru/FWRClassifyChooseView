@@ -15,7 +15,7 @@
 		457F59A31BBBD6CE00D6FCE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457F59A11BBBD6CE00D6FCE0 /* LaunchScreen.storyboard */; };
 		457F59AE1BBBD6CE00D6FCE0 /* FWRClassifyChooseViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 457F59AD1BBBD6CE00D6FCE0 /* FWRClassifyChooseViewDemoTests.m */; };
 		457F59B91BBBD6CE00D6FCE0 /* FWRClassifyChooseViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 457F59B81BBBD6CE00D6FCE0 /* FWRClassifyChooseViewDemoUITests.m */; };
-		457F59CD1BBBDBB300D6FCE0 /* ClassifyChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 457F59CC1BBBDBB300D6FCE0 /* ClassifyChooseView.m */; settings = {ASSET_TAGS = (); }; };
+		457F59CD1BBBDBB300D6FCE0 /* ClassifyChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 457F59CC1BBBDBB300D6FCE0 /* ClassifyChooseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -428,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FWRClassifyChooseViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fengweiru.FWRClassifyChooseViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FWRClassifyChooseViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fengweiru.FWRClassifyChooseViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
